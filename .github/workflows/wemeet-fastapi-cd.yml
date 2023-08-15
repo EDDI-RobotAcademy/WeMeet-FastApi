@@ -45,7 +45,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/${{ github.actor }}/fastapi-we-meet:latest
+          tags: ghcr.io/eddi-robotacademy/fastapi-we-meet:latest
           platforms: linux/arm64
           
   deploy:
