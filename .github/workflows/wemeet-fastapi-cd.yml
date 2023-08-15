@@ -6,7 +6,7 @@ on:
       - main
      
 env:
-  DOCKER_IMAGE: ghcr.io/${{ github.actor }}/fastapi-we-meet
+  DOCKER_IMAGE: ghcr.io/eddi-robotacademy/fastapi-we-meet
   VERSION: ${{ github.sha }}
   NAME: fastapi-we-meet
  
